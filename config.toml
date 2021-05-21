@@ -1,0 +1,182 @@
+baseURL = "https://medoix.com/"
+title = "medoix"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "medoix"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  description = "description for metadata"
+  keywords = "homepage, blog, profile, portfolio, medoix"
+  images = [""]
+
+  # Subtitle for home
+  homeSubtitle = "Pentester | DevOps | DevSecOps | Bug Hunter | Hacker of Things"
+
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable theme toggle
+  enableThemeToggle = true
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = false
+    author = true
+
+    #topText = []
+    #bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/medoix/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  [params.portrait]
+    path     = "/img/portrait.png"
+    alt      = "Portrait"
+    maxWidth = "200px"
+
+  # Social icons
+  [[params.social]]
+    name = "strava"
+    url  = "https://www.strava.com/athletes/17099454"
+
+  [[params.social]]
+    name = "case"
+    url  = "https://timeline.medoix.com"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:medoix@shivv.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/medoix"
+
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/medoix"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://linkedin.com/in/medoix"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/192725/medoix"
+
+  [params.goodreads]
+    user = 85150139
+
+[menu]
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier  = "books"
+    name        = "books"
+    url         = "/books"
+
+  [[menu.main]]
+    identifier = "blog"
+    name       = "blog"
+    url        = "/posts"
+
+  [[menu.main]]
+    identifier  = "projects"
+    name        = "projects"
+    url         = "/projects"
