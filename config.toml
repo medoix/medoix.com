@@ -172,11 +172,6 @@ disableHugoGeneratorInject = false
     url         = "/books"
 
   [[menu.main]]
-    identifier = "blog"
-    name       = "blog"
-    url        = "/posts"
-
-  [[menu.main]]
     identifier  = "projects"
     name        = "projects"
     url         = "/projects"
