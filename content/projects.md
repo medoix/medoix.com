@@ -2,7 +2,7 @@
 title: "projects"
 ---
 
-<span style="color:green">## ✔ active</span>
+## <span style="color:green">✔ active</span>
   
 ### medoix.com
 https://github.com/medoix/medoix.com
@@ -38,7 +38,7 @@ https://github.com/medoix/kali-docker
 ### malicious-docker
 https://github.com/medoix/malicious-docker
 
-<span style="color:red">## ✖ ended</span>
+## <span style="color:red">✖ ended</span>
   
 ### launch alarm
 SEO Site - https://launchalarm.com
