@@ -2,9 +2,9 @@
 title: "projects"
 ---
 
-<div class="wrapper" markdown="1" style="text-align: center; color: green;">
+<p align="center" style="text-align: center; color: green;">
 ## ✔ active ✔
-</div>
+</p>
   
 ### medoix.com
 https://github.com/medoix/medoix.com
@@ -40,9 +40,9 @@ https://github.com/medoix/kali-docker
 ### malicious-docker
 https://github.com/medoix/malicious-docker
 
-<div class="wrapper" markdown="1" style="text-align: center; color: red;">
+<p align="center" style="text-align: center; color: red;">
 ## ✖ ended ✖
-</div>
+</p>
   
 ### launch alarm
 SEO Site - https://launchalarm.com
