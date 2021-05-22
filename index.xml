@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>medoix</title><link>https://medoix.com/</link><description>Recent content on medoix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://medoix.com/index.xml" rel="self" type="application/rss+xml"/><item><title>books</title><link>https://medoix.com/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://medoix.com/books/</guid><description>I am reading 0 books, have read 0 books and want to read 0 books.
 Currently Reading Loading...
 Have Read Loading...
-Want to Read Loading...</description></item><item><title>projects</title><link>https://medoix.com/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://medoix.com/projects/</guid><description>medoix.com https://gitlab.com/medoix/medoix-site
-This website you are viewing.. it is a staticaly generated website with automatic CI to generate the static conent and serve it
-shivv.com https://gitlab.com/medoix/shivv-site
-Launch Alarm https://launchalarm.com
-Cross platform (iOS, Android) app that lists different company rocket launch scheules and allows you to view all the latest information about rocket launches and there launch complexes and payloads. This also has a big backend API and Push Notification service that is automaticaly deployed to Docker containers into AWS Elastic Container Service allowing users to register and receive push notifications when launches are taking place.</description></item></channel></rss>
+Want to Read Loading...</description></item><item><title>projects</title><link>https://medoix.com/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://medoix.com/projects/</guid><description>active medoix.com https://github.com/medoix/medoix.com
+This website you are viewing now.. it is a staticaly generated website with an automated workflow to generate the static conent and serve it.
+shivv.com https://github.com/medoix/shivv.com
+goodreads-json https://github.com/medoix/goodreads-json
+todo https://github.com/medoix/todo
+huecli https://github.com/medoix/huecli
+twitchirc https://github.com/medoix/twitchirc
+xheads https://github.com/medoix/xheads
+checksec https://github.com/medoix/checksec
+kali-docker https://github.com/medoix/kali-docker
+malicious-docker https://github.com/medoix/malicious-docker
+ended launch alarm SEO Site - https://launchalarm.com Mobile Source - https://github.com/medoix/launchalarmapp Server Source - https://github.com/medoix/launchalarmserver
+Cross platform (iOS, Android) app that lists different company rocket launch scheules and allows you to view all the latest information about rocket launches, launch complexes and rocket payloads.</description></item></channel></rss>
