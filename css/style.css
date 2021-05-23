@@ -1,0 +1,6 @@
+div.reading-body {
+    display: inline-block;
+}
+div+span+span:after.reading-body {
+    display: block;
+}

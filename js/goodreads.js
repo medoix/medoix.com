@@ -7,7 +7,7 @@ var open = function () {
         var count = 0;
         var books = "";
         for (var i = 0; i < json.length; i++) {
-          books += `<span class="dottedBorder"><a href="${json[i].book[0].link}" target="_blank" rel="external nofollow noopener noreferrer"><img src="${json[i].book[0].image_url}" /></a></span>`
+          books += `<span><a href="${json[i].book[0].link}" target="_blank" rel="external nofollow noopener noreferrer"><img src="${json[i].book[0].image_url}" /></a></span>`
           count++;
         }
         $("#reading-shelf-count").html(count);
@@ -27,7 +27,7 @@ var open = function () {
         var count = 0;
         var books = "";
         for (var i = 0; i < json.length; i++) {
-          books += `<span class="dottedBorder"><a href="${json[i].book[0].link}" target="_blank" rel="external nofollow noopener noreferrer"><img src="${json[i].book[0].image_url}" /></a></span>`
+          books += `<span><a href="${json[i].book[0].link}" target="_blank" rel="external nofollow noopener noreferrer"><img src="${json[i].book[0].image_url}" /></a></span>`
           count++;
         }
         $("#read-shelf-count").html(count);
@@ -47,7 +47,7 @@ var open = function () {
         var count = 0;
         var books = "";
         for (var i = 0; i < json.length; i++) {
-          books += `<span class="dottedBorder"><a href="${json[i].book[0].link}" target="_blank" rel="external nofollow noopener noreferrer"><img src="${json[i].book[0].image_url}" /></a></span>`
+          books += `<span><a href="${json[i].book[0].link}" target="_blank" rel="external nofollow noopener noreferrer"><img src="${json[i].book[0].image_url}" /></a></span>`
           count++;
         }
         $("#toread-shelf-count").html(count);
