@@ -138,7 +138,7 @@ disableHugoGeneratorInject = false
     url  = "https://www.strava.com/athletes/17099454"
 
   [[params.social]]
-    name = "case"
+    name = "polywork"
     url  = "https://timeline.medoix.com"
 
   [[params.social]]
