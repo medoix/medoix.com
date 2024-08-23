@@ -106,8 +106,8 @@ const config = {
         respectPrefersColorScheme: true,
       },
       algolia: {
-        appId: 'CTGM87XQE8',
-        apiKey: '2b554638ed8ab85e38243a8386111965',
+        appId: 'GHW986H5X1',
+        apiKey: 'a4f44735aca2e34b265ce74ea3e0af62',
         indexName: 'medoix.com',
         contextualSearch: true,
         searchParameters: {},
